@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magaly & Héctor - Invitación</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Montserrat:wght@200;400&family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <p class="top-label">SAVE THE DATE</p>
+                <h1>MAGALY & HÉCTOR</h1>
+                <p class="hero-date">22 . 05 . 2026</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <p class="quote">"Nuestra unión comienza hoy, y estamos felices de compartirla con ustedes."</p>
+        <div class="parents-grid">
+            <div class="parents-col">
+                <h3>PADRES DE LA NOVIA</h3>
+                <p class="parent-name">Rosa Elia Robledo</p>
+                <p class="parent-name">Jaime Garza Salinas</p>
+            </div>
+            <div class="parents-col">
+                <h3>PADRES DEL NOVIO</h3>
+                <p class="parent-name">Magdalena Soane Rivera</p>
+                <p class="parent-name">Abel Cueto Vázquez (†)</p>
+            </div>
+        </div>
+    </section>
+
+<div class="full-photo">
+        <img src="foto1.jpeg" alt="Magaly & Héctor">
+    </div>
+
+    <div class="countdown-bar">
+        <div id="countdown">
+            <span class="num" id="days">00</span><span class="label">d</span> : 
+            <span class="num" id="hours">00</span><span class="label">h</span> : 
+            <span class="num" id="minutes">00</span><span class="label">m</span> : 
+            <span class="num" id="seconds">00</span><span class="label">s</span>
+        </div>
+    </div>
+
+
+    <section class="itinerary-section">
+        <h2 class="section-title">ITINERARIO</h2>
+        
+        <div class="event-item">
+            <span class="event-hour">7:00 PM</span>
+            <div class="event-info">
+                <h3>CIVIL</h3>
+                <div class="event-img"><img src="Civil.jpeg"></div>
+                <p>SALÓN PALACIO CONQUISTADOR</p>
+                <a href="https://maps.app.goo.gl/Y8VYvuJnRzaxeDBCA" class="minimal-link">VER MAPA</a>
+            </div>
+        </div>
+
+        <div class="event-item">
+            <span class="event-hour">8:00 PM</span>
+            <div class="event-info">
+                <h3>RECEPCIÓN</h3>
+                <div class="event-img"><img src="recepcion.jpeg"></div>
+                <p>SALÓN PALACIO CONQUISTADOR</p>
+                <a href="https://maps.app.goo.gl/Y8VYvuJnRzaxeDBCA" class="minimal-link">VER MAPA</a>
+            </div>
+        </div>
+
+        <div class="event-item">
+            <span class="event-hour">DRESS</span>
+            <div class="event-info">
+                <h3>DRESS CODE</h3>
+                <div class="event-img"><img src="foto2.jpeg"></div>
+                <p>VESTIMENTA FORMAL</p>
+                <a href="https://pin.it/2nNeq2az2" class="minimal-link">VER INSPIRACIÓN</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="qr-section">
+        <div class="qr-card">
+            <h2 class="qr-title">Álbum de Fotos</h2>
+            <p class="qr-subtitle">HISTORIA A TRAVÉS DE TUS OJOS</p>
+            <p class="qr-desc">Ayúdanos a inmortalizar cada momento compartiendo tus fotos con nosotros.</p>
+            
+            <a href="https://photos.app.goo.gl/HYF9zYBNhsdUUrX57" class="btn-outline">SUBIR FOTOS</a>
+
+            <div class="qr-inner-box">
+                <img src="frame.png" alt="Código QR">
+                <p class="qr-footer-text">CÓDIGO DEL ÁLBUM: MAGALY & HÉCTOR</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="rsvp-section">
+        <div class="rsvp-container">
+            <h2>M&H</h2>
+            <p>Confirma tu asistencia antes del 1 de mayo</p>
+            <form id="rsvpForm">
+                <input type="text" id="guestName" placeholder="Tu nombre" required>
+                <select id="attendance" required>
+                    <option value="" disabled selected>¿Asistirás?</option>
+                    <option value="si">Confirmado ✅</option>
+                    <option value="no">No podré asistir ❌</option>
+                </select>
+                <button type="submit" class="btn-black">ENVIAR</button>
+            </form>
+            <p class="no-kids">ADULTOS SOLAMENTE</p>
+        </div>
+    </section>
+
+    <footer class="footer-guru">
+        <p>ELABORATED BY GURU</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
