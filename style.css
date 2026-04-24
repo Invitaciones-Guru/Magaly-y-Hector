@@ -195,3 +195,46 @@ h1 {
     padding-top: 15px; 
     font-weight: 700; /* Fecha en negrita */
 }
+
+
+/* HERO */
+.hero {
+    height: 100vh;
+    /* Actualizamos con la nueva foto */
+    background: url('bda6ca7e-79b2-42ef-a09e-489853c6995d.jpeg') center/cover no-repeat;
+    display: flex; 
+    align-items: flex-end; /* Esto pega el recuadro a la parte inferior */
+    justify-content: center;
+}
+
+.hero-overlay {
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 40px 30px; /* Reduje un poco el padding vertical para que no sea tan alto */
+    width: 85%;
+    border: 1px solid var(--black);
+    /* Margen inferior para que no toque literalmente el borde del celular/pantalla */
+    margin-bottom: 50px; 
+}
+
+/* Mantenemos el Save the Date oculto */
+.top-label { 
+    display: none; 
+}
+
+h1 { 
+    font-size: 2.2rem; /* Ajustado un poco para que quepa mejor en móviles */
+    font-weight: 700; 
+    margin: 0;
+}
+
+.hero-date { 
+    font-size: 1.1rem; 
+    letter-spacing: 4px; 
+    border-top: 2px solid var(--black); 
+    margin-top: 15px; 
+    padding-top: 10px; 
+    font-weight: 700;
+    display: inline-block;
+    width: 80%; /* Controla el largo de la raya horizontal */
+}
+
