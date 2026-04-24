@@ -238,3 +238,58 @@ h1 {
     width: 80%; /* Controla el largo de la raya horizontal */
 }
 
+
+/* SECCIÓN REGALOS ADAPTADA (SIN BOTÓN) */
+.gifts-section { 
+    padding: 100px 20px; 
+    text-align: center; 
+    background: var(--white); 
+}
+
+.gift-cards-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+    margin-top: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gift-card-premium {
+    background: #fff; 
+    padding: 60px 30px; /* Un poco más de espacio para balancear la falta del botón */
+    width: 340px;
+    border: 1px solid #eee; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 250px; /* Asegura que ambas tarjetas midan lo mismo */
+}
+
+.gift-card-premium h3 {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    color: var(--black);
+    font-family: 'Cormorant Garamond', serif; /* Manteniendo tu estilo elegante */
+    font-weight: 400;
+}
+
+.gift-desc {
+    font-size: 0.9rem;
+    color: var(--gray-text);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Ajuste móvil */
+@media (max-width: 600px) {
+    .gift-card-premium {
+        width: 100%;
+        min-height: auto;
+        padding: 40px 20px;
+    }
+}
+
