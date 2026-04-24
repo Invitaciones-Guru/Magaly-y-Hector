@@ -43,7 +43,7 @@ h1 { font-size: 2.5rem; }
 .section-padding { padding: 100px 20px; }
 .quote { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.6rem; max-width: 700px; margin: 0 auto 60px; }
 .parents-grid { display: flex; justify-content: center; gap: 60px; flex-wrap: wrap; }
-.parents-col h3 { font-size: 0.8rem; letter-spacing: 2px; color: var(--gray-text); margin-bottom: 20px; }
+.parents-col h3 { font-size: 0.8rem; letter-spacing: 2px; color: var(--black); margin-bottom: 20px; }
 .parent-name { font-family: 'Alex Brush', cursive; font-size: 2rem; margin: 5px 0; }
 
 /* IMAGEN FULL */
@@ -51,13 +51,13 @@ h1 { font-size: 2.5rem; }
 .full-photo img { width: 100%; height: 100%; object-fit: cover; }
 
 /* COUNTDOWN RESTAURADO */
-.countdown-bar { background: var(--gray-light); padding: 50px 20px; font-size: 1.5rem; letter-spacing: 3px; }
+.countdown-bar { background: var(--black); padding: 50px 20px; font-size: 1.5rem; letter-spacing: 3px; }
 
 /* ITINERARIO CENTRADO */
 .itinerary-section { padding: 100px 20px; max-width: 600px; margin: 0 auto; text-align: center; }
 .section-title { border-bottom: 1px solid var(--black); padding-bottom: 15px; margin-bottom: 80px; }
 .event-item { margin-bottom: 100px; }
-.event-hour { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gray-text); display: block; margin-bottom: 10px; }
+.event-hour { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--black); display: block; margin-bottom: 10px; }
 .event-img { width: 100%; height: 350px; margin: 20px 0; overflow: hidden; }
 .event-img img { width: 100%; height: 100%; object-fit: cover; }
 .minimal-link { 
