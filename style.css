@@ -51,7 +51,7 @@ h1 { font-size: 2.5rem; }
 .full-photo img { width: 100%; height: 100%; object-fit: cover; }
 
 /* COUNTDOWN RESTAURADO */
-.countdown-bar { background: var(--black); padding: 50px 20px; font-size: 1.5rem; letter-spacing: 3px; }
+.countdown-bar { background: var(--gray-light); padding: 50px 20px; font-size: 1.5rem; letter-spacing: 3px; }
 
 /* ITINERARIO CENTRADO */
 .itinerary-section { padding: 100px 20px; max-width: 600px; margin: 0 auto; text-align: center; }
