@@ -164,46 +164,34 @@ h1 { font-size: 2.5rem; }
     height: 100vh;
     background: url('bda6ca7e-79b2-42ef-a09e-489853c6995d.jpeg') center/cover no-repeat;
     display: flex; 
-    align-items: center; 
+    align-items: center; /* Alineación vertical */
     justify-content: center;
 }
 
 .hero-overlay {
-    /* Eliminamos el fondo blanco y el borde */
-    background: transparent; 
-    padding: 20px;
-    width: 90%;
-    border: none;
-    /* Bajamos un poco el contenido */
-    margin-top: 100px; 
+    background: rgba(255, 255, 255, 0.85); /* Regresa el fondo blanco con opacidad */
+    padding: 60px 40px;
+    width: 80%;
+    border: 1px solid var(--black);
+    /* Bajamos el recuadro aumentando el margen superior */
+    margin-top: 150px; 
 }
 
-/* Aplicamos negritas y sombra para legibilidad sobre la foto */
+/* Ocultamos el "Save the Date" */
 .top-label { 
-    font-size: 0.8rem; 
-    letter-spacing: 6px; 
-    color: var(--black); 
-    margin-bottom: 20px; 
-    font-weight: 700; 
-    text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+    display: none; 
 }
 
 h1 { 
-    font-size: 3rem; 
-    font-weight: 700; /* Texto en negrita */
-    text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+    font-size: 2.5rem; 
+    font-weight: 700; /* Mantenemos las negritas */
 }
 
 .hero-date { 
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     letter-spacing: 4px; 
-    border-top: 2px solid var(--black); /* Raya más gruesa */
-    margin-top: 25px; 
+    border-top: 2px solid var(--black); /* Raya en negrita */
+    margin-top: 20px; 
     padding-top: 15px; 
     font-weight: 700; /* Fecha en negrita */
-    display: inline-block; /* Para que la raya no cruce toda la pantalla */
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
 }
-
