@@ -26,7 +26,7 @@ h1, h2, h3 {
 /* HERO */
 .hero {
     height: 100vh;
-    background: url('porpor.jpeg') center/cover no-repeat;
+    background: url('bda6ca7e-79b2-42ef-a09e-489853c6995d.jpeg') center/cover no-repeat;
     display: flex; align-items: center; justify-content: center;
 }
 .hero-overlay {
@@ -162,7 +162,7 @@ h1 { font-size: 2.5rem; }
 /* HERO */
 .hero {
     height: 100vh;
-    background: url('foto1.jpeg') center/cover no-repeat;
+    background: url('bda6ca7e-79b2-42ef-a09e-489853c6995d.jpeg') center/cover no-repeat;
     display: flex; 
     align-items: center; 
     justify-content: center;
