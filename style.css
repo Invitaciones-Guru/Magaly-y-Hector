@@ -269,7 +269,7 @@ h1 {
 }
 
 .gift-card-premium h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     margin-bottom: 25px;
     color: var(--black);
@@ -278,8 +278,8 @@ h1 {
 }
 
 .gift-desc {
-    font-size: 1.5rem;
-    color: var(--gray-text);
+    font-size: 1.1rem;
+    color: var(--black);
     line-height: 1.8;
     margin: 0;
 }
