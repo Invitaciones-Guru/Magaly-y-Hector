@@ -25,5 +25,5 @@ document.getElementById('rsvpForm').onsubmit = (e) => {
     const status = choice === "si" ? "Confirmo mi asistencia ✅" : "No podré asistir ❌";
     const text = encodeURIComponent(`¡Hola! Soy ${name}. ${status}`);
     
-    window.open(`https://wa.me/528186694938?text=${text}`, '_blank');
+    window.open(`https://wa.me/528181369833?text=${text}`, '_blank');
 };
